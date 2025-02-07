@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+button {
+    
+    padding: 10px 15px;
+    background: rgb(63, 63, 250);
+    color: white;
+    border: solid 2px black;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.card {
+    background: rgb(244, 221, 191);
+    padding: 10px;
+    width: 250px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 28px;
+}
+
+#data-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#error-message{
+    margin: 20px auto;
+}
+
+#no-data{
+    margin: 5rem auto;
+    font-size: 17px;
+}
